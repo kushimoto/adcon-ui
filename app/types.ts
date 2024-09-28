@@ -1,0 +1,22 @@
+export type User = {
+  samAccountName: string;
+  principalName: string;
+  displayName: string;
+  givenName: string;
+  sn: string;
+  initials: string;
+  description: string;
+  title: string;
+  department: string;
+  company: string;
+  mail: string;
+  telephoneNumber: string;
+  mobile: string;
+  streetAddress: string;
+  city: string;
+  state: string;
+  postalCode: string;
+  country: string;
+  memberOf: string;
+  sshPublicKeys: string[];
+};
